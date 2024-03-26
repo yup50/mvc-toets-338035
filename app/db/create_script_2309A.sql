@@ -20,7 +20,7 @@ SET time_zone = "+00:00";
 --
 -- Database: `mvcframework-2309a`
 --
-CREATE DATABASE IF NOT EXISTS `mvcframework-2309a` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
+CREATE DATABASE IF NOT EXISTS `mvc-oop-toets` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
 USE `mvcframework-2309a`;
 
 -- --------------------------------------------------------

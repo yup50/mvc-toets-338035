@@ -11,7 +11,7 @@ define('DB_PASS', '');
 /**
  * De naam van de virtualhost
  */
-define('URLROOT', 'http://proeftoetsp3-uitwerkingen/');
+define('URLROOT', 'http://mvc-oop-toets.com/');
 
 
 /**
