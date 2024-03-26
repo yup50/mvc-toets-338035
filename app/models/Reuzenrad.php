@@ -1,6 +1,6 @@
 <?php
 
-class Reuzenrat
+class Reuzenrad
 {
     private $db;
 
@@ -16,7 +16,7 @@ class Reuzenrat
     /**
      * Haal alle records op uit de Country-tabel
      */
-    public function getReuzenratte()
+    public function getReuzenraden()
     {
         try {
             /**
