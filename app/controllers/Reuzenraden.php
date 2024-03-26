@@ -3,37 +3,37 @@
 class Reuzenraden extends BaseController
 {
 
-    private $zangeresModel;
+    private $reuzenradModel;
 
     public function __construct()
     {
-        $this->zangeresModel = $this->model('Zangeres');
+        $this->reuzenradModel = $this->model('Reuzenrad');
     }
 
     public function index()
     {
-        $zangeressen = $this->zangeresModel->getZangeressen();
+        $reuzenraden = $this->reuzenradModel->getReuzenraden();
         
-        // var_dump($zangeressen);exit();
+        // var_dump($reuzenraden);exit();
 
         $dataRows = "";
 
-        foreach ($zangeressen as $zangeres) {
+        foreach ($reuzenraden as $reuzenrad) {
             $dataRows .= "<tr>
-                            <td>{$zangeres->Naam}</td>
-                            <td>{$zangeres->NettoWaarde}</td>
-                            <td>{$zangeres->Land}</td>
-                            <td>{$zangeres->Mobiel}</td>
-                            <td>{$zangeres->Leeftijd}</td>            
+                            <td>{$reuzenrad->Naam}</td>
+                            <td>{$reuzenrad->Hoogte}</td>
+                            <td>{$reuzenrad->Land}</td>
+                            <td>{$reuzenrad->Kosten}</td>
+                            <td>{$reuzenrad->AantalPassagiers}</td>            
                         </tr>";
         }
 
         $data = [
-            'title' => 'De Top 5 rijkste zangeressen ter wereld',
+            'title' => 'De Top 5 rijkste reuzenraden ter wereld',
             'dataRows' => $dataRows
         ];
 
-        $this->view('zangeressen/index', $data);
+        $this->view('reuzenraden/index', $data);
     }
 
 }
