@@ -6,10 +6,10 @@
     <thead>
         <tr>
             <th>Naam</th>
-            <th>Netto Waarde (Miljoen</th>
+            <th>Hoogte (m)</th>
             <th>Land</th>
-            <th>Mobiel</th>
-            <th>Leeftijd</th>
+            <th>Kosten (miljoen)</th>
+            <th>Aantal passagiers</th>
         </tr>
     </thead>
     <tbody>

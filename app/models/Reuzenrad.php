@@ -28,7 +28,8 @@ class Reuzenrad
                           ,Land
                           ,Kosten
                           ,AantalPassagiers
-                    FROM   Reuzenrad';
+                    FROM   Reuzenrad
+                    ORDER BY Kosten DESC';
 
             /**
              * Prepare de query voor het PDO object

@@ -29,7 +29,7 @@ class Reuzenraden extends BaseController
         }
 
         $data = [
-            'title' => 'De Top 5 rijkste reuzenraden ter wereld',
+            'title' => 'De Top 5 hoogste reuzenraden ter wereld',
             'dataRows' => $dataRows
         ];
 
