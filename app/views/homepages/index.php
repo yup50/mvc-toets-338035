@@ -6,6 +6,8 @@
 <a href="<?= URLROOT; ?>/Countries/index">Landen van de Wereld</a> |
 <a href="<?= URLROOT; ?>/Zangeressen/index">Top 5 rijkste zangeressen</a>
 <a href="<?= URLROOT; ?>/Reuzenraden/index">Top 5 hoogste reuzenraden</a>
+<a href="<?= URLROOT; ?>/Nagelstudios/index">Nagel Salon Bling Bling</a>
+
 
 
 
